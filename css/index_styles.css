@@ -1,0 +1,75 @@
+:root {
+    --signature-color: #1E202B;
+  }
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--signature-color);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+p, h6 {
+    margin: 0;
+}
+
+nav {
+    background-color: var(--signature-color);
+    color: white;
+}
+
+input {
+    background-color: var(--signature-color);
+    border: none;
+    padding: 0.75rem;
+}
+
+.btn {
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+}
+
+
+.hero {
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    min-height: 350px;
+    margin-bottom: -7%;
+}
+
+
+.weather .day {
+    background-color: #2D303D;;
+}
+
+#today, #aftertomorrow {
+    background-color: #323544;
+}
+
+#today .degree h1 {
+    font-size: 90px;
+}
+
+#tomorrow {
+    background-color: #262936;
+}
+
+#tomorrow .day {
+    background-color: #222530;
+}
+
+
+footer {
+    background-color: #262936;
+}
+
+footer .icons .icon-container {
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--signature-color);
+}
